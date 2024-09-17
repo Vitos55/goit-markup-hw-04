@@ -150,6 +150,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .main-title {
@@ -188,6 +189,7 @@ a {
 .hero-btn:focus {
   background-color: #404bbf;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ============ MAIN-HERO-STYLES ============ */
