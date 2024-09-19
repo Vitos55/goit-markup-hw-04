@@ -206,6 +206,7 @@ a {
 }
 
 .benefits-item {
+  position: relative;
   width: 264px;
 }
 
@@ -243,6 +244,11 @@ a {
   text-align: center;
 }
 
+.benefits-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 /* ============ BENEFITS-STYLES ============ */
 
 /*============ Our Team Styles ============ */
