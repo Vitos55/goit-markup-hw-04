@@ -303,10 +303,14 @@ a {
   border-radius: 50%;
 }
 
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404bbf;
+}
+
 /* ============ Our Team Styles ============ */
 
 /* ============ Our Portfolio ============ */
-
 .team-list-img,
 .portfolio-list-img {
   display: block;
