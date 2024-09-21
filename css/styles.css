@@ -427,16 +427,18 @@ display: flex;
   height: 40px;
 }
 
-.social-list-link {
+.media-list-link {
 height: 100%
 
 }
 
-.social-list-link:hover, .social-list-link-focus {
+.media-list-link:hover, .midia-list-link-focus {
   background-color: #31d0aa;
 }
 
-.social-list-icon {
+.media-list-icon {
+
+}
   
 
 
