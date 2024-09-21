@@ -391,21 +391,24 @@ a {
   display: flex;
   background-color: #2e2f42;
   padding: 100px 0;
-  align-items: baseline
+  align-items: baseline;
   margin-right: 120px;
 }
+
+.logo-futer {margin-right: 120px;}
+
 
 .logo {
   display: inline-block;
 }
 
 .text-footer {
-  margin-bottom: 16px;
+  margin-bottom: 16px;;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+   letter-spacing: 0.02em;
   color: #FFFFFF;
   max-width: 264px;
-   font-weight: 500
+   font-weight: 500;
 }
 .media-footer {
   display: flex;
@@ -425,21 +428,30 @@ display: flex;
 .media-list-item {
   gap: 16px;
   height: 40px;
+  width: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .media-list-link {
-height: 100%
+  justify-content: center;
+   align-items: center;
+  display: flex;
+height: 100%;
+width: 100%;
+background-color: #4d5ae5;
+border-radius: 50%;
 
 }
 
-.media-list-link:hover, .midia-list-link-focus {
+.media-list-link:hover, .midia-list-link:focus {
   background-color: #31d0aa;
 }
 
 .media-list-icon {
+  fill: #f4f4fd;
 
 }
-  
+   
 
 
 /* ============ Page Footer ============ */
