@@ -395,6 +395,7 @@ a {
 }
 
 .logo-futer {
+  display: flex;
   margin-right: 120px;
 }
 
@@ -416,6 +417,7 @@ a {
 
 .media-list {
   display: flex;
+  gap: 16px;
 }
 
 .media-list-item {
