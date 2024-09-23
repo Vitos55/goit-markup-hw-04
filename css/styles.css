@@ -404,6 +404,7 @@ a {
 }
 
 .footer-container {
+  align-items: baseline;
   display: flex;
 }
 
